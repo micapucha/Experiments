@@ -159,10 +159,10 @@ int main (int argc, char * argv[])
 			
 		}else
 		{
-			png_name_length += 4;
+			png_name_length += 5;
 			
 			png_name = malloc(png_name_length);
-			snprintf(png_name, png_name_length, "%s.%s", argv[i], ".png");
+			snprintf(png_name, png_name_length, "%s.%s", argv[i], "png");
 		}
 		
 		tmx_bitmap = malloc(tmx_header.width * tmx_header.height / (tmx_ncolors == 16 ? 2 : 1));
