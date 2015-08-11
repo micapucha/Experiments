@@ -12,10 +12,21 @@ Unlike other tools, this one **keeps the original palette** and references the a
 - The transparency is readily available
 
 #Building
-The following commands assume a Debian/Ubuntu/Mint Linux. It should also work on BSD or similar platforms, as long as you install *freeimage*.
+If you use Debian/Ubuntu/Mint Linux, type the following commands:
 
 ```
 sudo apt-get install build-essential libfreeimage-dev libfreeimage3
+make
+```
+
+If you prefer FreeBSD (10.1), type these instead:
+
+```
+pkg install freeimage-3.16.0
+
+export C_INCLUDE_PATH=/usr/include:/usr/local/include
+LIBRARY_PATH=/usr/lib:/usr/local/lib
+
 make
 ```
 
