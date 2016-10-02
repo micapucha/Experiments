@@ -10,13 +10,14 @@ It is not advanced (the payload could be obfuscated), so it is NOT and CANNOT be
 ./VitaBrickCheck.sh /path/of/file.vpk
 ```
 
-Example of malware detection:
-```
-./VitaBrickCheck.sh .
-```
+#Example of malware detection
 In case of an actual infected app, it returns:
 ```
-Binary file ./mai_moe/mai.suprx matches
+WARNING: '/tmp/tmp.BqxPPOHZtI/mai_moe/mai.suprx' is suspicious
+
+Execution finished for /home/user/infected_package.vpk.
+1 suspicious file(s) found.
+
 ```
 (yes, it was tested on the real thing).
 
