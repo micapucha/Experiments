@@ -11,5 +11,5 @@ IFS=$'\n'
 
 for file in $(find "$1" -iname "*.bin" -or -iname "*.suprx" -or -iname "*.self")
 do
-	egrep "vs0|os0" $file
+	egrep "vs0|os0" "$file"
 done
