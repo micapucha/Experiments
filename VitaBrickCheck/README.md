@@ -1,6 +1,6 @@
 # VitaBrickCheck
 Little script that checks for potential bricking code in Vita apps.
-Works with any Linux, easily portable to FreeBSD.
+Works with any Linux, easily portable to FreeBSD and OSX.
 
 The tool looks for anomalous mountpoints in certain executable extensions.
 It is not advanced (the payload could be obfuscated), so it is NOT and CANNOT be 100% effective.

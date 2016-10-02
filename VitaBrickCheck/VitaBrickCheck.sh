@@ -22,7 +22,7 @@ fi
 n=0
 for file in $(find "$path" -iname "*.bin" -or -iname "*.suprx" -or -iname "*.self")
 do
-	if [ $(egrep -c -i "vs0|os0" "$file") -gt 0 ]
+	if [ $(egrep -c -i "vs0|os0|vshIoMount" "$file") -gt 0 ]
 	then
 		echo "WARNING: '$file' is suspicious"
 		n=$(( $n + 1))
