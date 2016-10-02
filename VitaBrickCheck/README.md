@@ -7,7 +7,7 @@ It is not advanced (the payload could be obfuscated), so it is NOT and CANNOT be
 
 #Usage
 ```
-./VitaBrickCheck.sh /path/of/decompressed_vpk
+./VitaBrickCheck.sh /path/of/file.vpk
 ```
 
 Example of malware detection:
