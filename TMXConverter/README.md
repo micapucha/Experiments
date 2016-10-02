@@ -25,7 +25,7 @@ If you prefer FreeBSD (10.1), type these instead:
 pkg install freeimage-3.16.0
 
 export C_INCLUDE_PATH=/usr/include:/usr/local/include
-LIBRARY_PATH=/usr/lib:/usr/local/lib
+export LIBRARY_PATH=/usr/lib:/usr/local/lib
 
 make
 ```
